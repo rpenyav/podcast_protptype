@@ -1,9 +1,6 @@
 import Layout from "layouts/Layout";
 import React from "react";
-import thumbnailPodcast from "../assets/images/thubmnail_podcast.png";
-import VerifyIcon from "../assets/svg/verify1.svg";
 import OrderBy from "components/OrderBy";
-import ButtonPlayer from "components/ButtonPlayer";
 import PodcastTable from "components/PodcastTable";
 
 const PodcastSearch: React.FC = () => (
