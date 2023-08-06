@@ -7,8 +7,8 @@ const PodcastSearch = lazy(() => import("../pages/PodcastSearch"));
 
 const AppRoutes = () => (
   <Routes>
-    <Route path="/" element={<PodcastView />} />
-    <Route path="/search" element={<PodcastSearch />} />
+    <Route path="/" element={<PodcastSearch />} />
+    <Route path="/view" element={<PodcastView />} />
   </Routes>
 );
 
