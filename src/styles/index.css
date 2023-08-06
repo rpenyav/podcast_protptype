@@ -105,6 +105,17 @@ body {
   align-items: center;
 }
 
+.play-pause-little {
+  width: 50px;
+  height: 50px;
+  background-color: #5c67de;
+  border-radius: 143px;
+  padding: 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .playericons {
   width: 20px;
   height: 24px;
@@ -113,6 +124,7 @@ body {
 .playericonslittle {
   height: 15px;
 }
+
 .minim-ample {
   min-width: 137px;
 }
@@ -177,3 +189,80 @@ body {
 }
 
 /*  FOOTER  */
+
+.custom-gray {
+  background-color: rgba(26, 26, 26, 1);
+}
+
+.podcast-content h5 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.podcast-content p {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.podcast-player-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.podcast-player-footer .aleat,
+.podcast-player-footer .start,
+.podcast-player-footer .end,
+.podcast-player-footer .upload {
+  width: 50px;
+}
+
+.podcast-player-footer .boton {
+  width: 75px;
+  text-align: center;
+}
+
+.podcast-player-footer .volume {
+  width: 190px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.podcast-player-footer .timer {
+  flex-grow: 1;
+  max-width: 576px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.timer .timeleft {
+  width: 82px;
+  text-align: right;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.timer .progressline {
+  flex-grow: 1;
+}
+
+.timer .timeend {
+  width: 72px;
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 0.3);
+}
