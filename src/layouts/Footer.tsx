@@ -5,7 +5,7 @@ import PlayerLeft from "../assets/svg/player_left.svg";
 import PlayerRight from "../assets/svg/player_right.svg";
 import PlayerReload from "../assets/svg/player_reload.svg";
 import PlayerVolume from "../assets/svg/player_volume.svg";
-import ButtonPlayer from "components/ButtonPlayer";
+import "../styles/player.css";
 import ButtonPlayerLittle from "components/ButtonPlayerLittle";
 
 const Footer: React.FC = () => {
