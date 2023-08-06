@@ -1,3 +1,179 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(10, 10, 10, 0.2),
+      rgba(10, 10, 10, 0.2)
+    ),
+    linear-gradient(131.55deg, #1b1b1b 0%, #14151f 88.91%);
+}
+
+.podcast-header {
+  @apply mx-auto;
+  max-width: 832px;
+}
+
+.podcast-container {
+  @apply mx-auto;
+  max-width: 832px;
+}
+
+/* Button.css */
+
+.btn-custom-back {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 0 5px;
+  gap: 10px;
+  background-color: #1a1a1a;
+}
+
+.custom-textfield {
+  border-radius: 15px;
+  padding-left: 15px;
+  height: 50px;
+  gap: 10px;
+  background-color: #1a1a1a;
+  margin-left: 15px;
+}
+
+.custom-textfield-searchf {
+  border-radius: 15px;
+  padding-left: 10px;
+  height: 50px;
+  gap: 10px;
+  background-color: #1a1a1a;
+  margin-left: 0px;
+}
+
+.input-custom-search {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+}
+
+.input-custom-search:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.btn-custom-search {
+  padding: 0px 6px;
+  padding-left: 10px;
+}
+
+.player-container {
+  height: 60px;
+}
+
+.player-container h3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 2rem; /* 32px */
+  line-height: 2.5rem; /* 40px */
+  letter-spacing: -0.02em; /* -2% */
+}
+
+.verify-icon {
+  width: 25px;
+  height: 25px;
+  display: inline;
+}
+
+.play-pause {
+  width: 60px;
+  height: 60px;
+  background-color: #5c67de;
+  border-radius: 143px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playericons {
+  width: 20px;
+  height: 24px;
+  object-fit: cover;
+}
+.playericonslittle {
+  height: 15px;
+}
+.minim-ample {
+  min-width: 137px;
+}
+
+.play-pause-mini-played {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 143px;
+  padding: 0 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3px;
+}
+
+.play-pause-mini-played img {
+  width: 15px;
+  height: auto;
+}
+
+.play-pause-mini-paused {
+  width: 30px;
+  height: 30px;
+  background-color: #5c67de;
+  border-radius: 143px;
+  padding: 0 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.play-pause-mini-paused img {
+  width: 12px;
+  height: auto;
+}
+
+.select-label {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.width-content {
+  width: 1px;
+  white-space: nowrap;
+}
+
+.subtext {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 3px;
+}
+
+/*  FOOTER  */

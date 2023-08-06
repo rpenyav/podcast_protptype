@@ -1,0 +1,101 @@
+/* Estilos CSS personalizados para la tabla */
+.custom-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.custom-table th,
+.custom-table td {
+    border: none;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.custom-table td {
+min-height: 80px;
+}
+
+
+.custom-table th.align-right,
+.custom-table td:first-child {
+    text-align: right;
+}
+
+
+.custom-table td.text-center,
+.custom-table th.text-center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Estilos para los bordes de las celdas */
+.custom-table tbody td {
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.custom-table tbody tr:last-child td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+/* Estilos para el encabezado de la tabla */
+.custom-table thead {
+    height: auto;
+}
+
+.custom-table thead th {
+    height: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17.5px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.custom-table tr th.th-col1{
+    min-width: 38px;
+}
+.custom-table tr td.th-col1 {
+    text-align: center;text-align: center;
+}
+
+
+
+.custom-table tr th.th-col2 {
+    min-width: 342px;padding-left: 14px;
+}
+.custom-table tr td.th-col2 {
+    padding: 14px;
+}
+
+
+.custom-table tr th.th-col3 {
+    min-width: 244px;padding-left: 14px;
+
+}
+
+.custom-table tr td.th-col3 {
+    padding: 14px;
+}
+
+
+
+.custom-table tr th.th-col4 {
+    min-width: 133px;padding-left: 14px;
+}
+.custom-table tr td.th-col4 {
+    padding: 14px;
+}
+
+
+.custom-table tr th.th-col5 {
+    min-width: 75px;padding-left: 25px;
+}.custom-table tr td.th-col5 {
+    padding: 14px;text-align: center;
+}
+
